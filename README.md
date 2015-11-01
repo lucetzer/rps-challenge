@@ -1,4 +1,8 @@
-# RPS Challenge: Rōnin Badge Test
+[![Build Status](https://travis-ci.org/lucetzer/rps-challenge.svg?branch=master)](https://travis-ci.org/lucetzer/rps-challenge)
+[![CoverageStatus](https://coveralls.io/repos/lucetzer/rps-challenge/badge.svg?branch=master&service=github)](https://coveralls.io/github/lucetzer/rps-challenge?branch=master)
+
+
+# Rock Paper Scissors Game
 
 About
 -------
@@ -14,8 +18,6 @@ About
 Task
 ----
 
-Knowing how to build web applications is getting us almost there as web developers!
-
 The Makers Academy Marketing Array ( **MAMA** ) have asked us to provide a game for them. Their daily grind is pretty tough and they need time to steam a little.
 
 Your task is to provide a _Rock, Paper, Scissors_ game for them so they can play on the web with the following user stories:
@@ -30,20 +32,20 @@ So that I can enjoy myself away from the daily grind
 I would like to be able to play rock/paper/scissors
 ```
 
-Hints on functionality
-
+Functionality:
 - the marketeer should be able to enter their name before the game
 - the marketeer will be presented the choices (rock, paper and scissors)
 - the marketeer can choose one option
 - the game will choose a random option
 - a winner will be declared
 
-**Rōnin BANZAI!!!!**
+Technologies used
+-----------------
 
-## Bonus level 1: Multiplayer
+* Ruby 2.2.3
+* Sinatra framework
+* Testing - Rspec Sinatra for unit testing and Capybara for feature tests
 
-Change the game so that two marketeers can play against each other ( _yes there are two of them_ ).
-
-## Bonus level 2: Rock, Paper, Scissors, Spock, Lizard
-
-Use the _special_ rules ( _you can find them here http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock_ )
+Yet to do
+---------
+Implement a two player game.
