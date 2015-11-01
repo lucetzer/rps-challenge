@@ -39,6 +39,15 @@ Functionality:
 - the game will choose a random option
 - a winner will be declared
 
+How to run this program
+-----------------------
+
+1. Fork and clone this repo
+2. Run ```bundle```
+3. To test, run ```rspec```
+4. To play the game, run ```rackup```
+
+
 Technologies used
 -----------------
 
